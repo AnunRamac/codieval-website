@@ -1,0 +1,93 @@
+@version 1.0.28
+* Fixed: Style bug 
+
+@version 1.0.27
+* Fixed: Style bug in Pagination With Header three
+
+@version 1.0.26
+* Removed: Unused Code
+
+@version 1.0.25
+* Fixed: Default Logo Width Issue
+* Fixed: Style Bugs
+
+@version 1.0.24
+* Added: Tested up to & Requires PHP Tags in Style
+
+@version 1.0.23
+* Fixed: Style Bugs
+* Updated: Screenshot
+
+@version 1.0.22
+* Added: Theme Description Updated
+
+@version 1.0.21
+* Added: Transparent Header
+* Added: Desktop Menu Link, Link Hover Color Settings
+* Added: Dropdown link, Dropdown Link Hover, Dropdown Background, Border Color Settings
+* Added: Desktop Menu Link, Link Hover Color Settings
+* Added: Menu Active Styles Settings
+* Updated: Screenshot
+
+@version 1.0.20
+* Updated: Screenshot
+
+@version 1.0.19
+* Added: Blog Single page Author Box Hide/Show Settings
+
+@version 1.0.18
+* Added: Customizer Header Images
+
+@version 1.0.17
+* Fixed: Logo Width Setting With Second Header
+* Fixed: Button Color Issue
+* Added: Widget title Bottom Line Color Settings
+* Added: Footer Copyright Widget Link & Link Hover Color Settings
+
+
+@version 1.0.16
+* Updated: Screenshot
+
+@version 1.0.15
+* Updated: Screenshot
+
+@version 1.0.14
+* Added: Header Image Overlay Color & Opacity Settings
+* Added: Admin Link in Customizer
+* Improved: Styles
+
+@version 1.0.13
+* Polylang Language Flag Style Improvement
+* Changed Theme Description
+
+@version 1.0.12
+* Updated: Screenshot
+* Improved: Admin File Code
+
+@version 1.0.11
+* Updated: Need Support Link
+
+@version 1.0.10
+* Added Admin Page
+* Screenshot Changed
+
+@version 1.0.9
+* Add Breadcrumb in Fullwidth Template
+
+@version 1.0.8
+* Style Bugs Resolved
+
+@version 1.0.7
+* Theme Description Updated
+
+@version 1.0.6
+* Theme Description Changed
+
+@version 1.0.5
+* Theme Review Issues Resolved
+
+@version 1.0.4
+* Theme Review Issues Resolved
+
+@version 1.0.3
+* Initial release

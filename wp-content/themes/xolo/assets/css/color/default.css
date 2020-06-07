@@ -1,0 +1,239 @@
+﻿/*=========================================
+    Primary Color
+=========================================*/
+/* Header CSS */
+.footer-copyright{
+	color : #fff;
+}
+::selection {
+    background-color: #FF8F00;
+    color: #fff;
+}
+
+/* header-three Start */
+
+.header-three .navigation:not(.pagination) {
+    background-color: #FF8F00;
+}
+
+/* --/-- */
+
+
+/* Active Style Start */
+[class*='header-']:matches(.active-default, .active-two, .active-three, .active-four, .active-six, .header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li:matches(:hover, :focus, .focus, .active) > a {
+    color: #FF8F00;
+}
+[class*='header-']:-moz-any(.active-default, .active-two, .active-three, .active-four, .active-six, .header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li:-moz-any(:hover, :focus, .focus, .active) > a {
+    color: #FF8F00;
+}
+[class*='header-']:-webkit-any(.active-default, .active-two, .active-three, .active-four, .active-six, .header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li:-webkit-any(:hover, :focus, .focus, .active) > a {
+    color: #FF8F00;
+}
+
+[class*='header-']:matches(.active-one, .active-five):not(.header-three) .menubar .menu-wrap > li:matches(:hover, :focus, .focus, .active) > a {
+    background-color: #FF8F00;
+}
+[class*='header-']:-moz-any(.active-one, .active-five):not(.header-three) .menubar .menu-wrap > li:-moz-any(:hover, :focus, .focus, .active) > a {
+    background-color: #FF8F00;
+}
+[class*='header-']:-webkit-any(.active-one, .active-five):not(.header-three) .menubar .menu-wrap > li:-webkit-any(:hover, :focus, .focus, .active) > a {
+    background-color: #FF8F00;
+}
+
+[class*='header-']:matches(.active-one, .active-two, .active-three, .active-four, .active-five):not(.header-three) .menubar .menu-wrap > li:matches(li,.dropdown) > a:after {
+    border-color: #FF8F00;
+}
+[class*='header-']:-moz-any(.active-one, .active-two, .active-three, .active-four, .active-five):not(.header-three) .menubar .menu-wrap > li:-moz-any(li,.dropdown) > a:after {
+    border-color: #FF8F00;
+}
+[class*='header-']:-webkit-any(.active-one, .active-two, .active-three, .active-four, .active-five):not(.header-three) .menubar .menu-wrap > li:-webkit-any(li,.dropdown) > a:after {
+    border-color: #FF8F00;
+}
+/* White Color */
+[class*='header-']:matches(.header-default.active-one, .header-default.active-five, .header-two.active-one, .header-two.active-five, .header-three.active-default, .header-three.active-two, .header-three.active-three, .header-three.active-four, .header-three.active-six, .header-four.active-one, .header-four.active-five, .header-five.active-one, .header-five.active-five) .menubar .menu-wrap > li:matches(:hover, :focus, .focus, .active) > a {
+    color: #ffffff;
+}
+[class*='header-']:-moz-any(.header-default.active-one, .header-default.active-five, .header-two.active-one, .header-two.active-five, .header-three.active-default, .header-three.active-two, .header-three.active-three, .header-three.active-four, .header-three.active-six, .header-four.active-one, .header-four.active-five, .header-five.active-one, .header-five.active-five) .menubar .menu-wrap > li:-moz-any(:hover, :focus, .focus, .active) > a {
+    color: #ffffff;
+}
+[class*='header-']:-webkit-any(.header-default.active-one, .header-default.active-five, .header-two.active-one, .header-two.active-five, .header-three.active-default, .header-three.active-two, .header-three.active-three, .header-three.active-four, .header-three.active-six, .header-four.active-one, .header-four.active-five, .header-five.active-one, .header-five.active-five) .menubar .menu-wrap > li:-webkit-any(:hover, :focus, .focus, .active) > a {
+    color: #ffffff;
+}
+
+[class*='header-']:matches(.header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li:matches(:hover, :focus, .focus, .active) > a {
+    background-color: #ffffff;
+}
+[class*='header-']:-moz-any(.header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li:-moz-any(:hover, :focus, .focus, .active) > a {
+    background-color: #ffffff;
+}
+[class*='header-']:-webkit-any(.header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li:-webkit-any(:hover, :focus, .focus, .active) > a {
+    background-color: #ffffff;
+}
+
+[class*='header-']:matches(.header-three.active-one, .header-three.active-three, .header-three.active-four, .header-three.active-five) .menubar .menu-wrap > li:matches(li,.dropdown) > a:after {
+    border-color: #ffffff;
+}
+[class*='header-']:-moz-any(.header-three.active-one, .header-three.active-three, .header-three.active-four, .header-three.active-five) .menubar .menu-wrap > li:-moz-any(li,.dropdown) > a:after {
+    border-color: #ffffff;
+}
+[class*='header-']:-webkit-any(.header-three.active-one, .header-three.active-three, .header-three.active-four, .header-three.active-five) .menubar .menu-wrap > li:-webkit-any(li,.dropdown) > a:after {
+    border-color: #ffffff;
+}
+
+[class*='header-']:matches(.active-default, .active-two, .active-three, .active-four, .active-six, .header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li:matches(.btn-home.current) > a {
+    color: #FF8F00;
+}
+[class*='header-']:-moz-any(.active-default, .active-two, .active-three, .active-four, .active-six, .header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li:-moz-any(.btn-home.current) > a {
+    color: #FF8F00;
+}
+[class*='header-']:-webkit-any(.active-default, .active-two, .active-three, .active-four, .active-six, .header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li:-webkit-any(.btn-home.current) > a {
+    color: #FF8F00;
+}
+
+/* --/-- */
+
+/* btn-home icon */
+
+[class*='header-']:matches(.active-one, .active-five):not(.header-three) .menubar .menu-wrap > li:matches(.btn-home.current) > a {
+    background-color: #FF8F00;
+}
+[class*='header-']:-moz-any(.active-one, .active-five):not(.header-three) .menubar .menu-wrap > li:-moz-any(.btn-home.current) > a {
+    background-color: #FF8F00;
+}
+[class*='header-']:-webkit-any(.active-one, .active-five):not(.header-three) .menubar .menu-wrap > li:-webkit-any(.btn-home.current) > a {
+    background-color: #FF8F00;
+}
+
+[class*='header-']:matches(.active-one, .active-two, .active-three, .active-four, .active-five):not(.header-three) .menubar .menu-wrap > li:matches(.btn-home.current) > a:after {
+    border-bottom-color: #FF8F00;
+}
+[class*='header-']:-moz-any(.active-one, .active-two, .active-three, .active-four, .active-five):not(.header-three) .menubar .menu-wrap > li:-moz-any(.btn-home.current) > a:after {
+    border-bottom-color: #FF8F00;
+}
+[class*='header-']:-webkit-any(.active-one, .active-two, .active-three, .active-four, .active-five):not(.header-three) .menubar .menu-wrap > li:-webkit-any(.btn-home.current) > a:after {
+    border-bottom-color: #FF8F00;
+}
+
+[class*='header-']:matches(.header-default.active-one, .header-default.active-five, .header-two.active-one, .header-two.active-five, .header-three.active-default, .header-three.active-two, .header-three.active-three, .header-three.active-four, .header-three.active-six, .header-four.active-one, .header-four.active-five, .header-five.active-one, .header-five.active-five) .menubar .menu-wrap > li.menu-item:matches(.btn-home.current) > a {
+    color: #ffffff;
+}
+[class*='header-']:-moz-any(.header-default.active-one, .header-default.active-five, .header-two.active-one, .header-two.active-five, .header-three.active-default, .header-three.active-two, .header-three.active-three, .header-three.active-four, .header-three.active-six, .header-four.active-one, .header-four.active-five, .header-five.active-one, .header-five.active-five) .menubar .menu-wrap > li.menu-item:-moz-any(.btn-home.current) > a {
+    color: #ffffff;
+}
+[class*='header-']:-webkit-any(.header-default.active-one, .header-default.active-five, .header-two.active-one, .header-two.active-five, .header-three.active-default, .header-three.active-two, .header-three.active-three, .header-three.active-four, .header-three.active-six, .header-four.active-one, .header-four.active-five, .header-five.active-one, .header-five.active-five) .menubar .menu-wrap > li.menu-item:-webkit-any(.btn-home.current) > a {
+    color: #ffffff;
+}
+[class*='header-']:matches(.header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li.menu-item:matches(.btn-home.current) > a {
+    background-color: #ffffff;
+}
+[class*='header-']:-moz-any(.header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li.menu-item:-moz-any(.btn-home.current) > a {
+    background-color: #ffffff;
+}
+[class*='header-']:-webkit-any(.header-three.active-one, .header-three.active-five) .menubar .menu-wrap > li.menu-item:-webkit-any(.btn-home.current) > a {
+    background-color: #ffffff;
+}
+[class*='header-']:matches(.header-three.active-one, .header-three.active-three, .header-three.active-four, .header-three.active-five) .menubar .menu-wrap > li.menu-item:matches(.btn-home.current) > a:after {
+    border-bottom-color: #ffffff;
+}
+[class*='header-']:-moz-any(.header-three.active-one, .header-three.active-three, .header-three.active-four, .header-three.active-five) .menubar .menu-wrap > li.menu-item:-moz-any(.btn-home.current) > a:after {
+    border-bottom-color: #ffffff;
+}
+[class*='header-']:-webkit-any(.header-three.active-one, .header-three.active-three, .header-three.active-four, .header-three.active-five) .menubar .menu-wrap > li.menu-item:-webkit-any(.btn-home.current) > a:after {
+    border-bottom-color: #ffffff;
+}
+/* --/-- */
+
+.header .navigation .menubar .dropdown-menu {
+    border-color: #FF8F00;
+}
+/* --/-- */
+
+.woocommerce a.remove:hover,
+.woocommerce a.remove:focus,
+.prealoader, .menu-right li.cart-wrapper .cart-icon-wrap span,
+input[type="button"],
+.header-sidebar-toggle.active span,
+.header-sidebar-toggle.active span:before, .header-sidebar-toggle.active span:after,
+.hamburger-menu > a:hover div, .hamburger-menu > a:focus div, button, input[type="reset"], input[type="submit"],
+.bt-primary, .badge.badge-primary {
+    background: #FF8F00;
+}
+
+.widget:not(.widget_calendar) a:focus,
+.widget:not(.widget_calendar) a:hover,
+.widget:not(.widget_calendar) a:active,
+.mobile-menu li > span,
+.mobile-menu .dropdown.current > a, .mobile-menu a:hover,
+.mobile-menu ul > li.active > a,
+.widget_social_widget li a:hover i,
+.widget_social_widget li a:focus i,
+.mobi-head-top .header-widget .widget_social_widget li a:hover i,
+.view-search form, .p-menu, [class*="widget_"]:not(.widget_info):not(.widget_social_widget) li a:before,
+.header-info .contact-icon i,
+.mobi-head-top .header-widget .widget:not(.widget_social_widget) i {
+    color: #FF8F00;
+}
+
+.view-search form .form-control {
+    border-bottom-color: #FF8F00;
+}
+
+input[type="text"]:focus, input[type="email"]:focus,
+input[type="url"]:focus, input[type="password"]:focus,
+input[type="search"]:focus, input[type="number"]:focus,
+input[type="tel"]:focus, input[type="range"]:focus,
+input[type="date"]:focus, input[type="month"]:focus,
+input[type="week"]:focus, input[type="time"]:focus,
+input[type="datetime"]:focus, input[type="datetime-local"]:focus,
+input[type="color"]:focus, textarea:focus, select:focus {
+	background-image: linear-gradient(#FF8F00, #FF8F00), linear-gradient(#e9e9ea, #e9e9ea);
+}
+
+.badge.badge-primary:before {
+    border-right-color: #FF8F00
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit],
+button, input[type="button"],
+input[type="reset"], input[type="submit"],
+.bt-primary, .logo a:focus {
+    border-color: #FF8F00;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit],
+button, input[type="button"], input[type="reset"], input[type="submit"],
+.bt-primary, .badge.badge-primary {
+    color: #fff;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    background-color: #FF8F00;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+div.wpforms-container-full .wpforms-form button[type=submit]:focus,
+button:hover, button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.bt-primary:hover, .bt-primary:focus {
+    color: #ffffff;
+    border-color: #FF8F00;
+    background-color: #FF8F00;
+}
+
+body,
+#primary-content,
+#secondary-content{
+	 background-color: #ffffff;
+}
+
+.header.header-five .widget_none a:hover,
+.header.header-five .widget_none a:focus {
+    color: #ffffff;
+}
+/* Seperater */
+

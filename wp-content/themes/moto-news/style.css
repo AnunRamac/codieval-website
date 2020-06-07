@@ -1,0 +1,549 @@
+/*
+Theme Name: Moto News
+Theme URI: https://wenthemes.com/item/wordpress-themes/moto-news/
+Author: WEN Themes
+Author URI: https://wenthemes.com/
+Description: Moto News is one of the best News Magazine WordPress themes for the automobile sports industry. It is a child theme of Magazine Plus, another Popular Magazine WordPress Theme. Moto News is a fast, clean, modern and responsive WordPress Theme created for magazine or news site. It is a strong and reliable platform for the design and development of sophisticated, technologically resourceful modern websites servicing roles in the magazine and online publishing industries. For those who wish to create their own professional news or magazine site, this is an ideal choice. Your site will look amazing on any device, regardless of the size of its screen. The theme is optimized for search engines, making it easier for readers to find your site. Official Support Forum: https://themepalace.com/support-forum/ Full Demo: https://wenthemes.com/theme-demos/?demo=moto-news
+Template: magazine-plus
+Version: 1.0
+Requires at least: 5.1
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: moto-news
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, full-width-template, translation-ready, theme-options, threaded-comments, footer-widgets, custom-logo, news
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# General
+# Typography
+# Media Queries
+# Colors
+--------------------------------------------------------------*/
+
+.comments-area {
+	display: block;
+	height: 1%;
+	overflow: hidden;
+}
+
+.container {
+	width: 1400px;
+}
+
+#main-nav,
+#breadcrumb,
+.widget-area ins {
+	max-width: 100%;
+}
+
+.site-main .hentry,
+.comments-area {
+	padding: 30px;
+}
+
+.site-content .widget,
+#sidebar-front-page-widget-area .widget.moto-news-default-text {
+    padding: 10px;
+}
+
+.site-main .navigation,
+#comments {
+	margin-top: 25px;
+}
+
+#main-nav .container,
+#breadcrumb .container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#masthead {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
+.site-description {
+	margin-top: 5px;
+	margin-bottom: 6px;
+}
+
+.header-social .magazine_plus_widget_social li a {
+	height: 42px;
+	width: 35px;
+}
+
+.main-navigation li.home-menu a::before {
+	line-height: 1;
+}
+
+.main-navigation ul li.home-menu a {
+	padding: 13px 15px;
+}
+
+.main-navigation ul li.menu-item-has-children > a::after,
+.main-navigation ul li.page_item_has_children > a::after {
+	top: 16px;
+}
+
+.main-navigation li.home-menu.current-menu-item a::before {
+	padding: 20px 18px;
+}
+
+.main-navigation ul ul,
+.header-search-box .search-box-wrap {
+	top: 100%;
+}
+
+.main-navigation ul li a {
+	padding: 16px 20px;
+}
+
+.main-navigation ul ul li a {
+	padding: 9px 15px;
+}
+
+.header-search-box a {
+    height: 56px;
+    padding: 16px 18px;
+}
+
+button,
+a.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	padding:  6px 18px;
+}
+
+.head-date::after,
+.header-search-box .search-box-wrap::before {
+	display: none;
+}
+
+.head-date {
+	margin-bottom: 0;
+	padding-top: 6px;
+	padding-bottom: 7px;
+}
+
+#top-nav ul li a {
+	padding: 10px 10px 9px;
+}
+
+#top-nav ul ul {
+	top: 100%;
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation,
+.nav-links,
+.wp-pagenavi {
+	margin-bottom: 0;
+}
+
+.nav-links,
+.wp-pagenavi {
+	padding: 0;
+}
+
+.hentry {
+	border:  none;
+}
+
+.top-news-title {
+	padding: 8px 10px 9px;
+}
+
+#news-ticker {
+	margin-top: 8px;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea, {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+}
+
+.main-navigation ul li a {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title {
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.site-description {
+	font-style: italic;
+	letter-spacing: normal;
+}
+
+.site-title {
+	font-size: 49px;
+	line-height: 1.1;
+}
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+
+@media only screen and (min-width:1440px) {
+	#primary {
+		width: 75%;
+	}
+
+	.sidebar {
+	    width: 25%;
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	.header-social-active #top-nav {
+		clear: right
+	}
+}
+
+@media only screen and (max-width:1023px) {
+	.head-date {
+		font-size: 16px;
+		padding: 9px 7px 8px 7px;
+	}
+
+	#header-ads,
+	#header-widget {
+		float: none;
+		text-align: center;
+		clear: both;
+		padding-top: 15px;
+	}
+
+	.site-main .hentry,
+	.comments-area {
+		padding: 25px;
+	}
+
+	#content {
+		padding: 25px 10px;
+	}
+
+	body.three-columns-enabled #primary,
+	body.three-columns-enabled #content .sidebar,
+	body #content #primary, body #content .sidebar {
+		border-bottom: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	#footer-widgets {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+}
+
+@media only screen and (max-width:900px) {
+	.main-navigation li.home-menu.current-menu-item a::before {
+		padding: 0;
+	}
+
+	.main-navigation .dropdown-toggle {
+		padding: 12px 19px;
+	}
+
+	.main-navigation ul li a {
+		padding: 11px 20px;
+	}
+
+	.head-date {
+		margin-top: 1px;
+	}
+
+	.top-news-title {
+		padding-top: 9px;
+	}
+
+	#news-ticker {
+		margin-top: 9px;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.site-main .hentry,
+	.comments-area {
+		padding: 20px;
+	}
+
+	#content {
+		padding: 20px 0;
+	}
+
+	.widget:first-child {
+		margin-top: 15px;
+	}
+
+	#footer-widgets {
+		padding: 5px 20px 20px;
+	}
+
+	#footer-widgets .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width:479px) {
+	#footer-widgets .footer-widget-area {
+		border-top: 0;
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width:450px) {
+	#primary,
+	#colophon {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.sidebar {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	a#mobile-trigger {
+	    padding-left: 15px;
+	}
+
+	#mobile-trigger2 {
+		padding-right: 15px;
+	}
+
+	.site-main .comment-navigation,
+	.site-main .posts-navigation,
+	.site-main .post-navigation {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+body {
+    background-color: #f1f1f1; /* Fallback for when there is no custom background color defined. */
+}
+
+.site-main .hentry,
+.comments-area,
+.site-content .widget {
+    background-color: #fff;
+}
+
+/* Main Dark Background Color */
+#tophead,
+#colophon,
+#main-nav,
+.magazine_plus_widget_social li a,
+.mobile-nav-wrap,
+#top-nav ul ul,
+.main-navigation ul ul {
+	background-color: #15181f;
+}
+
+/* Header Background Color */
+#masthead,
+#footer-widgets {
+	background-color: #1a1e26;
+}
+
+/* Main Black Text Color */
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+}
+
+a:hover, a:focus, a:active,
+#breadcrumb a {
+	color: #404040;
+}
+
+/* Link red color */
+a,
+a:visited,
+.magazine_plus_widget_news_slider a:hover,
+.magazine_plus_widget_news_slider a:focus,
+#breadcrumb,
+#breadcrumb a:hover,
+#breadcrumb a:focus,
+.sidebar .widget a:hover,
+.sidebar .widget a:focus,
+.sidebar ul li::before,
+.magazine_plus_widget_latest_news .latest-news-title a:hover,
+.magazine_plus_widget_latest_news .latest-news-title a:focus,
+.sidebar .widget .calendar_wrap a,
+#colophon a:hover,
+#colophon a:focus,
+#quick-links-404 ul li a:hover,
+#quick-links-404 ul li a:focus,
+.magazine_plus_widget_categorized_news .categorized-news-title a:hover,
+.magazine_plus_widget_categorized_news .categorized-news-title a:focus {
+	color: #c11f1f;
+}
+
+.head-date,
+#top-nav ul ul a:hover,
+#top-nav ul ul a:focus,
+#top-nav ul li li a:hover,
+#top-nav ul li li a:focus,
+.main-navigation li.home-menu.current-menu-item a::before,
+.main-navigation li a:hover,
+.main-navigation li a:focus,
+.main-navigation li.current-menu-item a,
+.main-navigation li.current_page_item a,
+.main-navigation li:hover > a,
+.main-navigation li:focus > a,
+.header-search-box a:hover,
+.header-search-box a:focus,
+.comment-navigation a:hover,
+.comment-navigation a:focus,
+.posts-navigation a:hover,
+.posts-navigation a:focus,
+.post-navigation a:hover,
+.post-navigation a:focus,
+.page-numbers.current,
+.nav-links a.page-numbers:hover,
+.nav-links a.page-numbers:focus,
+.wp-block-pullquote.is-style-solid-color blockquote,
+.scrollup:hover,
+.scrollup:focus,
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-footer a:hover,
+.entry-footer a:focus,
+.widget-title span,
+.widget-title::after,
+.magazine_plus_widget_tabbed .tabbed-container .etabs li.active a,
+.magazine_plus_widget_tabbed .tabbed-container .etabs li a:hover,
+.magazine_plus_widget_tabbed .tabbed-container .etabs li a:focus,
+.magazine_plus_widget_news_slider .cycle-prev,
+.magazine_plus_widget_news_slider .cycle-next,
+.magazine_plus_widget_news_slider .pager-box.cycle-pager-active,
+.widget_calendar caption,
+.widget .tagcloud a:hover,
+.widget .tagcloud a:focus,
+#mobile-trigger i,
+.menu-toggle,
+a.button,
+a.read-more,
+.call-to-action-buttons .custom-button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background-color: #c11f1f;
+}
+
+@media only screen and (max-width:900px) {
+	.main-navigation .wrap-menu-content,
+	.top-navigation {
+		background-color: #15181f;
+	}
+
+	.main-navigation li.home-menu.current-menu-item a {
+		background-color: #c11f1f;
+	}
+
+	.dropdown-toggle,
+	.menu-toggle {
+		background-color: transparent;
+		color: #fff;
+	}
+
+	.menu-toggle:hover,
+	.menu-toggle:focus,
+	.menu-toggle.selected,
+	#top-nav ul li a:hover,
+	#top-nav ul li a:focus,
+	#top-nav li.current-menu-item a,
+	#top-nav li.current_page_item a,
+	#top-nav li:hover > a,
+	#top-nav li:focus > a {
+		background-color: #c11f1f;
+		color: #fff;
+	}
+
+	#top-nav li.current-menu-item li a,
+    #top-nav li.current_page_item li a {
+        background-color: transparent;
+    }
+
+    #top-nav ul li li a:hover,
+    #top-nav ul li li a:focus {
+    	background-color: #c11f1f;
+    }
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large),
+blockquote,
+.page-numbers.current,
+.nav-links a.page-numbers:hover,
+.nav-links a.page-numbers:focus,
+.widget .tagcloud a:hover,
+.widget .tagcloud a:focus {
+	border-color: #c11f1f;
+}
+
+.header-search-box .search-box-wrap {
+	border-top-color: #c11f1f;
+}
+
+.header-search-box .search-box-wrap::before {
+	border-bottom-color: #c11f1f;
+}
+
+/* White Color */
+.site-title a,
+.site-title a:visited,
+.site-description,
+#top-nav ul li a,
+.top-news a {
+	color: #d7d7d7;
+}
+
+.site-title a:hover,
+.site-title a:focus {
+	color: #fff;
+}
+
+#top-nav ul li a:hover,
+#top-nav ul li a:focus,
+.top-news a:hover,
+.top-news a:focus,
+.search-icon .fa-search,
+.search-icon:hover,
+.search-icon:focus {
+	color: #fff;
+}
